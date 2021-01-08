@@ -74,8 +74,7 @@ final_score_sz = hp.response_up * (design.score_sz - 1) + 1
 
 
 
-4. 
-
+4. build Siames Network
 ```
 # build TF graph once for all
 filename, image, templates_z, scores = siam.build_tracking_graph(final_score_sz, design, env)
